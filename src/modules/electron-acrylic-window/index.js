@@ -29,7 +29,7 @@ function getHwnd(win) {
             return hbuf.readInt32BE();
         }
     } catch (e) {
-        console.log('NOT_VALID_WINDOW');
+        console.log(' NOT_VALID_WINDOW ');
     }
 }
 
@@ -58,6 +58,7 @@ function _setVibrancy(win, vibrancyOp = null) {
         }
     } catch(e) {
         console.log(e)
+        console.log("Vibrancy set failed!")
     }
     
 }
