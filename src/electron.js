@@ -1080,7 +1080,7 @@ refreshMonitors = async (fullRefresh = false, bypassRateLimit = false) => {
 
   // Reset all known displays
   if (fullRefresh) {
-    console.log("Doing full refresh.")
+    console.log("Doing full refresh")
   }
 
   // Save old monitors for comparison
